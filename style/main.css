@@ -108,6 +108,11 @@ body {
   /* height: auto; */
 }
 
+.six img#imagePath {
+  transform: scaleX(-1);
+  transition: transform 0.5s;
+}
+
 .six .hat {
   left: 41.5%;
   position: absolute;
